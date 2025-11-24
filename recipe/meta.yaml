@@ -1,4 +1,4 @@
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: ironcub-models
@@ -6,7 +6,7 @@ package:
 
 source:
   url: "https://github.com/ami-iit/ironcub-models/archive/refs/tags/v{{ version }}.tar.gz"
-  sha256: a87d1ee441f186d281ea40404f5a437aa71a1b8bdde6ff4bd7168911f4607436
+  sha256: 493dc82317c88a38cdf9b779ab7cc44cf59ef2f761e509c32484af340b0c7c1c
 
 build:
   number: 0
